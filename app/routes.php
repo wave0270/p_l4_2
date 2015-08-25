@@ -15,3 +15,11 @@ Route::get('/', function()
 {
 	return View::make('hello');
 });
+
+Route::group(['before' => 'guest'], function(){
+	Route::get( '/dashboard'              , ['uses' => 'DashboardController@showDashboard'            , 'as'   => 'dashboard']);
+});
+
+Route::group(['before' => 'auth'], function(){
+	
+});
