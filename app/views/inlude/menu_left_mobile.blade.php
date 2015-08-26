@@ -1,1 +1,0 @@
-<div id="wrap-menu-left-mobile">Menu left mobile</div>

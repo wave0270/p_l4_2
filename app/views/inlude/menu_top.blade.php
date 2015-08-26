@@ -1,1 +1,0 @@
-<div id="wrap-menu-top">Menu top</div>

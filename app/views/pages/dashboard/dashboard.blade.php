@@ -1,11 +1,11 @@
 @extends('extends/global')
 
 @section('content')
-<h1>Dashobard</h1>
+<h1>Dashboard</h1>
 @stop
 
-@section('head');
-<title>Dashobard</title>
+@section('head')
+<title>Dashboard</title>
 @stop
 
 @section('js')

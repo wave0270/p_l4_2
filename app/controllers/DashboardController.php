@@ -1,8 +1,8 @@
 <?php
 
 class DashboardController extends BaseController {
-	public function showWelcome()
+	public function showDashboard()
 	{
-		return View::make('pages/dashboard');
+		return View::make('pages/dashboard/dashboard');
 	}
 }
