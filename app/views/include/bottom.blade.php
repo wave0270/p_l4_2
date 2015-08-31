@@ -1,1 +1,1 @@
-<div id="wrap-bottom">Bottom</div>
+<div class="wrap-bottom">Bottom</div>

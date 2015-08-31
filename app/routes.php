@@ -11,13 +11,13 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
-});
-
 Route::group(['before' => 'guest'], function(){
-	Route::get( '/dashboard'              , ['uses' => 'DashboardController@showDashboard'            , 'as'   => 'dashboard']);
+	Route::get( '/dashboard'        , ['uses' => 'DashboardController@showDashboard', 	'as'   => 'dashboard']);
+	
+	Route::get( '/'              		, ['uses' => 'HomeController@showHome', 	'as'   => 'index']);
+	Route::get( '/auth/login'           , ['uses' => 'HomeController@showLogin', 	'as'   => 'login']);
+	Route::get( '/auth/resetPassword'   , ['uses' => 'HomeController@showResetPassword', 	'as'   => 'resetPassword']);
+	Route::get( '/auth/register'   		, ['uses' => 'HomeController@showRegister', 'as'   => 'register']);
 });
 
 Route::group(['before' => 'auth'], function(){

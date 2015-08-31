@@ -1,4 +1,4 @@
-<div id="wrap-menu-top">
+<div class="wrap-menu-top">
 	
 <nav class="navbar navbar-default">
   <div class="container-fluid">

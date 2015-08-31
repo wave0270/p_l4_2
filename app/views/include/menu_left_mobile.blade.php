@@ -1,4 +1,4 @@
-<div id="wrap-menu-left-mobile">
+<div class="wrap-menu-left-mobile">
 	<nav id="menu" >
 		<ul>
 			<li><a href="#">Home</a></li>

@@ -29,9 +29,9 @@ return array(
 	|
 	*/
 
-	'lifetime' => 120,
+	'lifetime' => 120,			//1 ~ 1 minute
 
-	'expire_on_close' => false,
+	'expire_on_close' => false,	//true is mean session will be remove when close browser
 
 	/*
 	|--------------------------------------------------------------------------

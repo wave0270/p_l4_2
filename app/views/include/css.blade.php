@@ -6,3 +6,4 @@
 {{ HTML::style('/libs/mmenu/css/jquery.mmenu.all.css') }}
 <!-- Manual -->
 {{ HTML::style('/css/bootstrap-multi-menu.css') }}
+{{ HTML::style('/css/main.css') }}
